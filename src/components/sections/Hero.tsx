@@ -67,7 +67,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              className="animate-pulse-soft rounded-full bg-accent px-8 py-4 text-base font-semibold text-accent-contrast"
+              className="pulse-ring rounded-full bg-accent px-8 py-4 text-base font-semibold text-accent-contrast"
             >
               Vamos criar algo juntos
             </motion.a>

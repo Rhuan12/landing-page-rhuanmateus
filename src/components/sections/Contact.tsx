@@ -72,7 +72,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.97 }}
-          className="contact-reveal animate-pulse-soft flex items-center gap-3 rounded-full bg-accent px-10 py-5 text-lg font-bold text-accent-contrast"
+          className="contact-reveal pulse-ring flex items-center gap-3 rounded-full bg-accent px-10 py-5 text-lg font-bold text-accent-contrast"
         >
           <FaWhatsapp className="h-6 w-6" />
           Chamar no WhatsApp
