@@ -77,7 +77,7 @@ export function Hero() {
         </div>
 
         <div className="h-[300px] w-full max-w-md sm:h-[380px]">
-          {webglOk ? (
+          {!booted ? null : webglOk ? (
             <CanvasErrorBoundary
               fallback={<StaticTerminalFallback reducedMotion={reducedMotion} />}
             >
