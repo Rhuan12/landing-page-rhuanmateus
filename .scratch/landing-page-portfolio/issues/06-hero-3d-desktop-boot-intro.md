@@ -4,12 +4,12 @@
 
 **Blocked by:** 01
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] Cena 3D renderiza uma janela de terminal flutuante no Hero
-- [ ] Comandos são "digitados" automaticamente na janela (ex: `whoami`, `cat about.txt`, `ls projects/`), em loop ou sequência definida
-- [ ] Em desktop, a cena reage ao movimento do mouse com leve rotação/parallax
-- [ ] Uma intro de "boot de terminal" (texto tipo `> initializing...`) é exibida enquanto os assets 3D carregam, antes de revelar o conteúdo
-- [ ] Headline e CTA do Hero (texto de apresentação) renderizados junto à cena 3D
-- [ ] Cena não trava nem gera erros no console em navegadores desktop modernos (Chrome, Firefox, Safari)
-- [ ] Componente monta sem lançar erro mesmo se WebGL não estiver disponível (fallback gracioso, não precisa ser otimizado — otimização mobile é do ticket 07)
+- [x] Cena 3D renderiza uma janela de terminal flutuante no Hero
+- [x] Comandos são "digitados" automaticamente na janela (ex: `whoami`, `cat about.txt`, `ls projects/`), em loop ou sequência definida
+- [x] Em desktop, a cena reage ao movimento do mouse com leve rotação/parallax
+- [x] Uma intro de "boot de terminal" (texto tipo `> initializing...`) é exibida enquanto os assets 3D carregam, antes de revelar o conteúdo
+- [x] Headline e CTA do Hero (texto de apresentação) renderizados junto à cena 3D
+- [x] Cena não trava nem gera erros no console em navegadores desktop modernos (Chrome, Firefox, Safari)
+- [x] Componente monta sem lançar erro mesmo se WebGL não estiver disponível (fallback gracioso, não precisa ser otimizado — otimização mobile é do ticket 07)
