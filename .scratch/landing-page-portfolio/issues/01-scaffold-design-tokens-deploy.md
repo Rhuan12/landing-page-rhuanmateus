@@ -4,12 +4,12 @@
 
 **Blocked by:** None (can start immediately)
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] Projeto Next.js (App Router) inicializado com TypeScript e Tailwind CSS configurado
-- [ ] Tokens de design definidos (fundo preto azulado ~`#0d1117`, verde terminal moderado, acento âmbar/laranja) como variáveis/tema Tailwind, sem alternância de light mode
-- [ ] Fontes carregadas e aplicadas: `JetBrains Mono` (títulos/destaques) e `Inter` (corpo de texto)
-- [ ] Estrutura de layout base (`<html>`/`<body>`, container de página) já com fundo escuro e fonte corporal aplicados
-- [ ] Repositório conectado à Vercel com deploy automático a cada push
-- [ ] URL pública (subdomínio `*.vercel.app`) acessível, mostrando uma página inicial mínima com o tema aplicado corretamente
-- [ ] Metadados de SEO básicos (title, description, favicon) usando variável de ambiente para a URL canônica, para permitir troca futura de domínio sem alterar código
+- [x] Projeto Next.js (App Router) inicializado com TypeScript e Tailwind CSS configurado
+- [x] Tokens de design definidos (fundo preto azulado ~`#0d1117`, verde terminal moderado, acento âmbar/laranja) como variáveis/tema Tailwind, sem alternância de light mode
+- [x] Fontes carregadas e aplicadas: `JetBrains Mono` (títulos/destaques) e `Inter` (corpo de texto)
+- [x] Estrutura de layout base (`<html>`/`<body>`, container de página) já com fundo escuro e fonte corporal aplicados
+- [x] Repositório conectado à Vercel com deploy automático a cada push
+- [x] URL pública (subdomínio `*.vercel.app`) acessível, mostrando uma página inicial mínima com o tema aplicado corretamente
+- [x] Metadados de SEO básicos (title, description, favicon) usando variável de ambiente para a URL canônica, para permitir troca futura de domínio sem alterar código
