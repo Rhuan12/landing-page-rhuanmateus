@@ -21,9 +21,6 @@ export const metadata: Metadata = {
   title: "Rhuan Mateus — Desenvolvedor Fullstack",
   description:
     "Portfólio de Rhuan Mateus, desenvolvedor fullstack — de landing pages e sites a sistemas de automação em Python.",
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
