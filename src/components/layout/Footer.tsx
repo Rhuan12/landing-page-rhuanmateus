@@ -19,7 +19,10 @@ export function Footer() {
           <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 font-mono text-xs text-muted">
             {quickLinks.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className="hover:text-terminal-green">
+                <a
+                  href={link.href}
+                  className="outline-none transition-colors hover:text-terminal-green active:text-terminal-green focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-terminal-green"
+                >
                   {link.label}
                 </a>
               </li>
@@ -34,7 +37,7 @@ export function Footer() {
                 href={contact.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-amber"
+                className="outline-none transition-colors hover:text-amber active:text-amber focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber"
               >
                 {contact.label}
               </a>

@@ -11,7 +11,7 @@ export function ProjectCard({ project }: { project: Project }) {
           target="_blank"
           rel="noreferrer"
           aria-label={`Visitar site de ${title}`}
-          className="group block aspect-video border-b border-border bg-background"
+          className="group block aspect-video border-b border-border bg-background outline-none transition-colors hover:bg-background-elevated focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-terminal-green"
         >
           <div className="flex h-6 items-center gap-1.5 border-b border-border bg-background-elevated px-3">
             <span className="h-2 w-2 rounded-full bg-terminal-green-dim/60" />
@@ -53,7 +53,7 @@ export function ProjectCard({ project }: { project: Project }) {
             href={href}
             target="_blank"
             rel="noreferrer"
-            className="font-mono text-xs text-terminal-green hover:text-amber"
+            className="w-fit font-mono text-xs text-terminal-green outline-none transition-colors hover:text-amber active:text-amber focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber"
           >
             {href.replace(/^https?:\/\//, "").replace(/\/$/, "")} ↗
           </a>

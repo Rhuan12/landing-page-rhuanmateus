@@ -29,7 +29,7 @@ function FloatingTerminal({
 
   return (
     <group ref={groupRef}>
-      <Html center transform distanceFactor={1.6}>
+      <Html center transform distanceFactor={3.4}>
         <TerminalPanel reducedMotion={reducedMotion} />
       </Html>
     </group>

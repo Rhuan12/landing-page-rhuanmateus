@@ -14,7 +14,7 @@ export function Contact() {
               href={contact.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col gap-1 px-5 py-4 font-mono text-sm transition-colors hover:bg-background sm:flex-row sm:items-center sm:justify-between"
+              className="group flex flex-col gap-1 px-5 py-4 font-mono text-sm outline-none transition-colors hover:bg-background active:bg-background focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-amber sm:flex-row sm:items-center sm:justify-between"
             >
               <span className="text-terminal-green">
                 $ contato --{contact.label}

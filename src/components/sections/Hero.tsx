@@ -63,20 +63,20 @@ export function Hero() {
           <div className="flex flex-wrap justify-center gap-3 sm:justify-start">
             <a
               href="#projetos"
-              className="rounded-md border border-terminal-green bg-terminal-green/10 px-4 py-2 font-mono text-sm text-terminal-green transition-colors hover:bg-terminal-green/20"
+              className="rounded-md border border-terminal-green bg-terminal-green/10 px-4 py-2 font-mono text-sm text-terminal-green outline-none transition-all hover:bg-terminal-green/20 hover:shadow-[0_0_18px_-4px_rgba(63,185,80,0.55)] active:scale-[0.97] active:bg-terminal-green/25 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-terminal-green"
             >
               Ver projetos
             </a>
             <a
               href="#contato"
-              className="rounded-md border border-border px-4 py-2 font-mono text-sm text-muted transition-colors hover:border-amber hover:text-amber"
+              className="rounded-md border border-border px-4 py-2 font-mono text-sm text-muted outline-none transition-all hover:border-amber hover:text-amber active:scale-[0.97] active:border-amber active:text-amber focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber"
             >
               Contato
             </a>
           </div>
         </div>
 
-        <div className="h-[300px] w-full max-w-md sm:h-[380px]">
+        <div className="h-[340px] w-full max-w-md sm:h-[460px] sm:max-w-lg">
           {!booted ? null : webglOk ? (
             <CanvasErrorBoundary
               fallback={<StaticTerminalFallback reducedMotion={reducedMotion} />}
