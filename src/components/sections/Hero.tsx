@@ -41,7 +41,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative z-0 flex min-h-[90svh] flex-col items-center justify-center overflow-hidden px-6 py-20"
+      className="relative flex min-h-[90svh] flex-col items-center justify-center overflow-hidden px-6 py-20"
     >
       <BootIntro reducedMotion={reducedMotion} onDone={handleBootDone} />
 
@@ -77,7 +77,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="h-[340px] w-full max-w-md sm:h-[460px] sm:max-w-lg">
+        <div className="relative z-0 h-[340px] w-full max-w-md sm:h-[460px] sm:max-w-lg">
           {!booted ? null : webglOk ? (
             <CanvasErrorBoundary
               fallback={<StaticTerminalFallback reducedMotion={reducedMotion} />}
