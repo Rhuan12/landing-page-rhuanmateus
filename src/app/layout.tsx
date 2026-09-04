@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Rhuan Mateus — Desenvolvedor Fullstack",
   description:
-    "Portfólio de Rhuan Mateus, desenvolvedor fullstack com foco em automação com Python.",
+    "Portfólio de Rhuan Mateus, desenvolvedor fullstack — de landing pages e sites a sistemas de automação em Python.",
   icons: {
     icon: "/favicon.ico",
   },

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Section } from "@/components/ui/Section";
 
 const facts = [
-  "Fullstack · foco em automação com Python",
+  "Fullstack · sites, sistemas e automação",
   "Penúltimo semestre — Ciência da Computação (UECE)",
   "3 anos de experiência",
   "Aberto a CLT e freelance",
@@ -26,8 +26,8 @@ export function About() {
         <div className="space-y-6">
           <div className="space-y-4 text-base leading-relaxed text-foreground/90">
             <p>
-              Sou desenvolvedor fullstack com foco em automação usando Python,
-              cursando o penúltimo semestre de Ciência da Computação na UECE.
+              Sou desenvolvedor fullstack, cursando o penúltimo semestre de
+              Ciência da Computação na UECE.
               Nos últimos 3 anos venho construindo sistemas que vão de
               landing pages e sites institucionais a ferramentas internas que
               automatizam tarefas repetitivas e economizam tempo de quem

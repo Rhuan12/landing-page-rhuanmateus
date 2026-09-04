@@ -58,7 +58,8 @@ export function Hero() {
             Rhuan Mateus
           </h1>
           <p className="max-w-md text-muted">
-            Desenvolvedor fullstack com foco em automação com Python.
+            Desenvolvedor fullstack — de landing pages e sites a sistemas de
+            automação em Python.
           </p>
           <div className="flex flex-wrap justify-center gap-3 sm:justify-start">
             <a

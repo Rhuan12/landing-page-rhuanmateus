@@ -5,7 +5,7 @@ export const terminalSteps: TerminalStep[] = [
   {
     command: "cat about.txt",
     output: [
-      "fullstack dev · foco em automação com Python",
+      "fullstack dev · sites, sistemas & automação",
       "penúltimo semestre — Ciência da Computação (UECE)",
     ],
   },

@@ -10,7 +10,7 @@ describe("About", () => {
 
   it("mentions the key professional facts", () => {
     render(<About />);
-    expect(screen.getByText(/automação com Python/i)).toBeInTheDocument();
+    expect(screen.getByText(/sites, sistemas e automação/i)).toBeInTheDocument();
     expect(screen.getByText(/Ciência da Computação \(UECE\)/i)).toBeInTheDocument();
     expect(screen.getByText(/3 anos de experiência/i)).toBeInTheDocument();
   });

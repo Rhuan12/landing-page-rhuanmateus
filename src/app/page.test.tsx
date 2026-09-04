@@ -7,7 +7,9 @@ describe("Home", () => {
     render(<Home />);
     expect(screen.getByText("Rhuan Mateus")).toBeInTheDocument();
     expect(
-      screen.getByText(/Desenvolvedor fullstack com foco em automação com Python\./),
+      screen.getByText(
+        /Desenvolvedor fullstack — de landing pages e sites a sistemas de automação em Python\./,
+      ),
     ).toBeInTheDocument();
   });
 });
