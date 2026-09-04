@@ -41,7 +41,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-[90svh] flex-col items-center justify-center overflow-hidden px-6 py-20"
+      className="relative z-0 flex min-h-[90svh] flex-col items-center justify-center overflow-hidden px-6 py-20"
     >
       <BootIntro reducedMotion={reducedMotion} onDone={handleBootDone} />
 
